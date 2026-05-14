@@ -13,7 +13,7 @@ _pycache_/
 Indexa todos los directorios y carpetas en busca de documentos nuevos.
 
 ````shell
-git add.
+git add .
 ````
 
 ## 3. Crear un COMMIT
