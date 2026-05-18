@@ -33,4 +33,7 @@ Sincroniza los cambios realizados en el repositorio.
 git push -u origin main
 ````
 
-## 5. git. pull descarga 
+## 5.  descarga 
+````shell
+git. pull
+````
