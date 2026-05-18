@@ -1,5 +1,5 @@
 class Transporte:
-    def__int__(self, capacidad, tipo, numero_asientos, placa, destino, precio, color, comodidad, primer_horario, numero_puertas)
+    def __int__(self, capacidad, tipo, numero_asientos, placa, destino, precio, color, comodidad, primer_horario, numero_puertas)
             self.capacidad=capacidad
             self.tipo=tipo
             self.numero_asientos=numero_asientos

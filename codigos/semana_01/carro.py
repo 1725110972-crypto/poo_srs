@@ -1,11 +1,11 @@
 class Carro:
-    def__int__(self, marca, color, numero_puertas, modelo, placa, marca_llantas, cilindros, estilo, kilometraje, potencia)
+    def __init__(self, marca, color, numero_puertas, modelo, placa, marca_llantas, cilindros, estilo, kilometraje, potencia)
             self.marca=marca
             self.color=color
             self.numero_puertas=numero_puertas
             self.modelo=modelo
             self.placa=placa
-            selfmarca_llantas=marca_llantas
+            self.selfmarca_llantas=marca_llantas
             self.cilindros=cilindros
             self.estilo=estilo
             self.kilometraje=kilometraje
@@ -31,7 +31,5 @@ class Carro:
     def reparar(self):
           print("Reparar el Carro")
 
-bmwM4C5L=Carro("BMW","Gris y Negro","4 puertas","M4_CSL","AAA-111.B","Michelin","6 Cilindros","Deportivo", "1,500km-15,00", "550CV")   
-
-    
-    
+bmw_M4C5L=Carro("BMW","Gris y Negro","4 puertas","M4_CSL","AAA-111.B","Michelin","6 Cilindros","Deportivo", "1,500km-15,00", "550CV")   
+      
