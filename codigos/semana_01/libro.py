@@ -1,5 +1,6 @@
 class LibroDeUnaBiblioteca:
-    def__int__(self, ancho, largo, titulo, paginas, autor, genero_literario, idioma, capitulos, color, editorial)
+    
+    def __init__(self, ancho, largo, titulo, paginas, autor, genero_literario, idioma, capitulos, color, editorial):
             self.ancho=ancho
             self.largo=largo
             self.titulo=titulo

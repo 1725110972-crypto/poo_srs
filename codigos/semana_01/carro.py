@@ -1,11 +1,12 @@
 class Carro:
-    def __init__(self, marca, color, numero_puertas, modelo, placa, marca_llantas, cilindros, estilo, kilometraje, potencia)
+    
+    def __init__(self, marca, color, numero_puertas, modelo, placa, marca_llantas, cilindros, estilo, kilometraje, potencia):
             self.marca=marca
             self.color=color
             self.numero_puertas=numero_puertas
             self.modelo=modelo
             self.placa=placa
-            self.selfmarca_llantas=marca_llantas
+            self.marca_llantas=marca_llantas
             self.cilindros=cilindros
             self.estilo=estilo
             self.kilometraje=kilometraje
@@ -15,9 +16,9 @@ class Carro:
             print(f"Color del Carro:{self.color}")
             print(f"Número de Puertas:{self.numero_puertas}")
             print(f"Modelo del Carro:{self.modelo}")
-            print(f"Placa:{self.Placa}")
+            print(f"Placa:{self.placa}")
             print(f"Marca de Llantas:{self.marca_llantas}")
-            print(f"Cilindraje{self.cilindros}")
+            print(f"Cilindraje:{self.cilindros}")
             print(f"estilo:{self.estilo}")
             print(f"Kilometraje:{self.kilometraje}")
             print(f"Potencia:{self.potencia}")
@@ -31,5 +32,5 @@ class Carro:
     def reparar(self):
           print("Reparar el Carro")
 
-bmw_M4C5L=Carro("BMW","Gris y Negro","4 puertas","M4_CSL","AAA-111.B","Michelin","6 Cilindros","Deportivo", "1,500km-15,00", "550CV")   
+bmw_M4C5L = Carro("BMW","Gris y Negro","4 puertas","M4_CSL","AAA-111-B","Michelin","6 Cilindros","Deportivo", "1,500km-15,00km", "550CV")   
       

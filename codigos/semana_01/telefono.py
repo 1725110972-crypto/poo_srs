@@ -1,5 +1,5 @@
 class Telefono:
-    def__int__(self,marca,camaras,sistema_operativo,precio,color,material,desbloqueo,almacenamiento,puerto_carga,peso)
+    def __init__(self, marca, camaras, sistema_operativo, precio,color, material, desbloqueo, almacenamiento, puerto_carga, peso):
             self.marca=marca
             self.camaras=camaras
             self.sistema_operativo=sistema_operativo
@@ -22,7 +22,7 @@ class Telefono:
             print(f"Perto de Carga:{self.puerto_carga}")
             print(f"Peso del Teléfono:{self.peso}")
 
-iphone16pro=Telefono("Apple","3 camaras-48MP","ios18","24,000","Oro Dorado","Titanio","Face ID","128GB","USB-C","199gramos")    
+iphone16pro = Telefono("Apple","3 camaras-48MP","ios18","24,000 pesos","Oro Dorado","Titanio","Face ID","128GB","USB-C","199gramos")    
 
     
     
