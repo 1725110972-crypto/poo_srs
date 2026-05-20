@@ -32,7 +32,7 @@ class Silla:
         print("Tirar la silla")
     def comer(self):
         print("Comer en la mesa") 
-furnitureR = Silla("4 patas", "crema, cafe", "Cuero sintético, Metal", "76.5 cm", "120 KGS", "Cocina, sala", "medio", "nórdico", "$3,338")   
+furnitureR = Silla("4 patas", "crema, cafe", "Cuero sintético, Metal", "76.5 cm", "120 KGS", "FurnitureR", "Cocina, sala", "medio", "nórdico", "$3,338")   
 
 furnitureR.cargar()
 furnitureR.recargar()

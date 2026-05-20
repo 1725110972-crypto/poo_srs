@@ -38,7 +38,7 @@ neon=Personaje("Neon", "Duelista", "Bioelectricidad", "ráfaga de rayos", "Escud
 
 neon.dispara()
 neon.cargar()
-neon.corre()
+neon.correr()
 neon.lutear()
 neon.saltar()  
 
