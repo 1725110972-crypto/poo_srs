@@ -33,7 +33,28 @@ Sincroniza los cambios realizados en el repositorio.
 git push -u origin main
 ````
 
-## 5.  descarga 
+## 5. Agregsr Documentación a los Métodos
+
+Agregar un **Docstring** a los métodos generados
+
+"""python
+````shell
+def metodoUno(self, variable_uno:int, variable_dos:float)->int:
+ suma=variable_uno + variable_dos
+        return int(suma)
+````
+La documentación se hace en 3 pasos
+1.Descripción de que variables recibe y que hace cada variable 
+(Args:)
+2.Colocar que tipo de variable son 
+(Return:)
+3.El resultado de lo que hace el código y sis e repite o no
+
+"""
+
+
+
+## descarga 
 ````shell
 git. pull
 ````
