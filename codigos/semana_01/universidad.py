@@ -1,5 +1,5 @@
 class Universidad:
-    def __init__(self, logo, oferta_educativa, localidad, sistema_informatica, modalidad, servicios, ubicacion, talleres, cantidad_salones, rector):
+      def __init__(self, logo, oferta_educativa, localidad, sistema_informatica, modalidad, servicios, ubicacion, talleres, cantidad_salones, rector):
             self.logo=logo
             self.oferta_educativa=oferta_educativa
             self.localidad=localidad
@@ -22,7 +22,25 @@ class Universidad:
             print(f"Cantidad de Salones de la Universidad:{self.cantidad_salones}")
             print(f"Rector de la Universidad:{self.rector}")
 
+      def entrar(self):
+          print("Teclear el Libro")
+      def marcar(self):
+          print("Marcar en el Teléfono")
+      def agarrar(self):
+          print("Agarrar el Teléfono")
+      def tirar(self):
+          print("No tirar el Teléfono")
+      def apagar(self):
+          print("Apgar el Teléfono")
+
+
 unideh = Universidad("logo.jpg","ing.Software,Turismo","San Miguel","CADU","Virtual","Biblioteca Digital","Santa Catarina",None,None,"Octavio Casillo")    
 
-    
+unideh.entrar()
+unideh.marcar()
+unideh.agarrar()
+unideh.tirar()
+unideh.apagar()
+  
+  
     

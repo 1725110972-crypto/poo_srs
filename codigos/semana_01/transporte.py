@@ -24,9 +24,18 @@ class Transporte:
           print("Subir el Tranporte")
     def bajar(self):
           print("Bajar el Transporte")
+    def pagar(self):
+          print("Pagar el Transporte")
+    def sentarse(self):
+          print("Sentarse en el Transporte")
+    def pararse(self):
+          print("Pararse del Transporte")
 
 camion_Tizayuca = Transporte("40-55 pasajeros","Autobus","40-55 asientos","AAA-000-A","Tizayuca,Tulancingo,Pachuca","40 pesos","Azul,Rojo,Blanco","Media","5:15AM","1-2")    
      
-
-    
+camion_Tizayuca.subir()
+camion_Tizayuca.bajar()
+camion_Tizayuca.pagar()
+camion_Tizayuca.sentarse()
+camion_Tizayuca.pararse()
     

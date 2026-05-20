@@ -1,5 +1,5 @@
 class Telefono:
-    def __init__(self, marca, camaras, sistema_operativo, precio,color, material, desbloqueo, almacenamiento, puerto_carga, peso):
+      def __init__(self, marca, camaras, sistema_operativo, precio,color, material, desbloqueo, almacenamiento, puerto_carga, peso):
             self.marca=marca
             self.camaras=camaras
             self.sistema_operativo=sistema_operativo
@@ -22,7 +22,23 @@ class Telefono:
             print(f"Perto de Carga:{self.puerto_carga}")
             print(f"Peso del Teléfono:{self.peso}")
 
+      def teclear(self):
+          print("Teclear el Libro")
+      def marcar(self):
+          print("Marcar en el Teléfono")
+      def agarrar(self):
+          print("Agarrar el Teléfono")
+      def tirar(self):
+          print("No tirar el Teléfono")
+      def apagar(self):
+          print("Apgar el Teléfono")
+
+
 iphone16pro = Telefono("Apple","3 camaras-48MP","ios18","24,000 pesos","Oro Dorado","Titanio","Face ID","128GB","USB-C","199gramos")    
 
-    
+iphone16pro.teclear()
+iphone16pro.marcar()
+iphone16pro.agarrar()
+iphone16pro.tirar()
+iphone16pro.apagar()
     

@@ -24,13 +24,20 @@ class Carro:
             print(f"Potencia:{self.potencia}")
     
     def conducir(self):
-          print("Conducir el Carro")
+            print("Conducir el Carro")
     def frenar(self):
-          print("Frenar el Carro")
+            print("Frenar el Carro")
     def detener(self):
-          print("Detener el Carro")
+             print("Detener el Carro")
     def reparar(self):
-          print("Reparar el Carro")
+            print("Reparar el Carro")
+    def entrar(self):
+            print("Entrar en el Carro")
 
 bmw_M4C5L = Carro("BMW","Gris y Negro","4 puertas","M4_CSL","AAA-111-B","Michelin","6 Cilindros","Deportivo", "1,500km-15,00km", "550CV")   
-      
+
+bmw_M4C5L.conducir()
+bmw_M4C5L.frenar()
+bmw_M4C5L.detener()
+bmw_M4C5L.reparar()
+bmw_M4C5L.entrar()

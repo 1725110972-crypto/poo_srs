@@ -1,6 +1,6 @@
 class LibroDeUnaBiblioteca:
     
-    def __init__(self, ancho, largo, titulo, paginas, autor, genero_literario, idioma, capitulos, color, editorial):
+      def __init__(self, ancho, largo, titulo, paginas, autor, genero_literario, idioma, capitulos, color, editorial):
             self.ancho=ancho
             self.largo=largo
             self.titulo=titulo
@@ -23,16 +23,22 @@ class LibroDeUnaBiblioteca:
             print(f"Color del Libro:{self.color}")
             print(f"Editorial del Libro:{self.editorial}")
     
-    def leer(self):
+      def leer(self):
           print("Leer el Libro")
-    def abrir(self):
+      def abrir(self):
           print("Abrir el Libro")
-    def aprender(self):
+      def aprender(self):
           print("Aprender del Libro")
-    def hojear(self):
+      def hojear(self):
           print("Hojear el Libro")
+      def cerrar(self):
+          print("Cerrar el Libro")
+      
 
 principito=LibroDeUnaBiblioteca("15.5cm","21.9cm","Principito","26 paginas","Antoine de Saint","Infantil","Español","27 Capitulos","Salamandra,Emece,Aima Editorial","Azul,Amarillo")    
 
-    
-    
+principito.leer()
+principito.aprender()
+principito.hojear()
+principito.abrir()
+principito.cerrar()
