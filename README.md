@@ -33,26 +33,23 @@ Sincroniza los cambios realizados en el repositorio.
 git push -u origin main
 ````
 
-## 5. Agregsr Documentación a los Métodos
+## 5. Agregar Documentación a los Métodos
 
 Agregar un **Docstring** a los métodos generados
 
-"""python
+```python
 ````shell
 def metodoUno(self, variable_uno:int, variable_dos:float)->int:
  suma=variable_uno + variable_dos
         return int(suma)
 ````
-La documentación se hace en 3 pasos
-1.Descripción de que variables recibe y que hace cada variable 
-(Args:)
-2.Colocar que tipo de variable son 
-(Return:)
-3.El resultado de lo que hace el código y sis e repite o no
+La documentación se hace en 3 pasos:
 
-"""
+1. **Descripción:** Una explicación breve en la primera línea sobre qué hace la función en general(qué hace y para qué sirve)como una acción.
+2. **Argumentos:** Se lista cada variable que recibe la función, indicando su tipo entre paréntesis}. Una explicación clara de qué representa esa variable o para qué se utilizará  (`Args:`).
+3. **Resultadoy Retorno:** : Se indica qué tipo de dato devuelve la función al terminar (si aplica) y qué significa ese resultado "El resultado exacto de la suma"(`Returns:`).
 
-
+```
 
 ## descarga 
 ````shell
